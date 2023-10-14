@@ -1,0 +1,9 @@
+// test schema file for recursive tables
+
+
+table Box {
+    similar: [Box];
+    i8:int8;
+}
+
+root_type Box;
